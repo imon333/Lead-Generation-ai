@@ -1,0 +1,14 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main.container {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-highlight {
+  color: #0A66C2;
+} 

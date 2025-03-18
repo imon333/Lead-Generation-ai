@@ -1,0 +1,123 @@
+/* Lead Generation AI Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.app-header {
+    background-color: #0A66C2;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.results-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.lead-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease;
+}
+
+.lead-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background-color: #0A66C2;
+    border-color: #0A66C2;
+}
+
+.btn-primary:hover {
+    background-color: #004182;
+    border-color: #004182;
+}
+
+.score-badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.high-score {
+    background-color: #28a745;
+    color: white;
+}
+
+.medium-score {
+    background-color: #ffc107;
+    color: black;
+}
+
+.low-score {
+    background-color: #6c757d;
+    color: white;
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 0.25em solid rgba(10, 102, 194, 0.2);
+    border-right-color: #0A66C2;
+    border-radius: 50%;
+    animation: spinner-border 0.75s linear infinite;
+}
+
+@keyframes spinner-border {
+    to { transform: rotate(360deg); }
+}
+
+.filter-section {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    color: #0A66C2;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.twitter-icon {
+    color: #1DA1F2;
+}
+
+.email-icon {
+    color: #EA4335;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+} 
